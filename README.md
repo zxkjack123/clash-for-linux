@@ -44,6 +44,20 @@ $ vim .env
 
 <br>
 
+## 配置系统proxy
+进入系统settings-> network -> Proxy -> Network Proxy: enable -> Configuration: Manual, 设置：
+- HTTP Proxy:
+  - URL: 127.0.0.1
+  - Port: 7890
+- HTTPS Proxy:
+  - URL: 127.0.0.1
+  - Port: 7890
+- SOCKS HOTS
+  - URL: 127.0.0.1
+  - Port: 7891
+- Ignored Hosts:
+  - See 195th line of ./start.sh
+* 注意：这个配置是zxkjack123个人测试适合ubuntu 22.04及24.04，对其他系统适应性未经测试。
 ## 启动程序
 
 直接运行脚本文件`start.sh`
