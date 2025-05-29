@@ -1,2 +1,5 @@
 temp
 logs
+logs/*
+.env
+nohup*
